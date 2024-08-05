@@ -21,7 +21,6 @@ commands:
       - mtadmin
       - dmtadmin
     usage: |
-      /mt help
       /mtadmin help
     description: Buy or sell some item in player's inventory # 描述
     permission: demonmarket.admin
