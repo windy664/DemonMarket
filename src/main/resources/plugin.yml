@@ -9,7 +9,6 @@ depend:
 commands:
   demonmarket: # 命令的基本名，请不要使用奇怪的字符！
     aliases: # 别名，方便玩家使用
-      - mt
       - dmt
     usage: |
       /mt help
