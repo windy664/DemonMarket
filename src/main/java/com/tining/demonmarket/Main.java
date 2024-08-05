@@ -113,9 +113,6 @@ public class Main extends JavaPlugin {
     }
 
     public static void setExecutor() {
-        if (Bukkit.getPluginCommand("mt") != null) {
-            Bukkit.getPluginCommand("mt").setExecutor(new UserCommand());
-        }
         if (Bukkit.getPluginCommand("demonmarket") != null) {
             Bukkit.getPluginCommand("demonmarket").setExecutor(new UserCommand());
         }
